@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FED8A0329FAFE7B007A3979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A0229FAFE7B007A3979 /* AppDelegate.swift */; };
+		3FED8A0529FAFE7B007A3979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A0429FAFE7B007A3979 /* SceneDelegate.swift */; };
+		3FED8A0729FAFE7B007A3979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A0629FAFE7B007A3979 /* ViewController.swift */; };
+		3FED8A0A29FAFE7B007A3979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED8A0829FAFE7B007A3979 /* Main.storyboard */; };
+		3FED8A0C29FAFE7D007A3979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FED8A0B29FAFE7D007A3979 /* Assets.xcassets */; };
+		3FED8A0F29FAFE7D007A3979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED8A0D29FAFE7D007A3979 /* LaunchScreen.storyboard */; };
+		3FED8A1A29FAFE7D007A3979 /* Alapati_Exam03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A1929FAFE7D007A3979 /* Alapati_Exam03Tests.swift */; };
+		3FED8A2429FAFE7D007A3979 /* Alapati_Exam03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A2329FAFE7D007A3979 /* Alapati_Exam03UITests.swift */; };
+		3FED8A2629FAFE7D007A3979 /* Alapati_Exam03UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A2529FAFE7D007A3979 /* Alapati_Exam03UITestsLaunchTests.swift */; };
+		3FED8A3329FB00CB007A3979 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A3229FB00CB007A3979 /* Model.swift */; };
+		3FED8A3529FB010C007A3979 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A3429FB010C007A3979 /* RootViewController.swift */; };
+		3FED8A3729FB012F007A3979 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED8A3629FB012F007A3979 /* DestinationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FED8A1629FAFE7D007A3979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FED89F729FAFE7B007A3979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FED89FE29FAFE7B007A3979;
+			remoteInfo = Alapati_Exam03;
+		};
+		3FED8A2029FAFE7D007A3979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FED89F729FAFE7B007A3979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FED89FE29FAFE7B007A3979;
+			remoteInfo = Alapati_Exam03;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FED89FF29FAFE7B007A3979 /* Alapati_Exam03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alapati_Exam03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED8A0229FAFE7B007A3979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FED8A0429FAFE7B007A3979 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FED8A0629FAFE7B007A3979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FED8A0929FAFE7B007A3979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FED8A0B29FAFE7D007A3979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FED8A0E29FAFE7D007A3979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FED8A1029FAFE7D007A3979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED8A1529FAFE7D007A3979 /* Alapati_Exam03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alapati_Exam03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED8A1929FAFE7D007A3979 /* Alapati_Exam03Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alapati_Exam03Tests.swift; sourceTree = "<group>"; };
+		3FED8A1F29FAFE7D007A3979 /* Alapati_Exam03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alapati_Exam03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED8A2329FAFE7D007A3979 /* Alapati_Exam03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alapati_Exam03UITests.swift; sourceTree = "<group>"; };
+		3FED8A2529FAFE7D007A3979 /* Alapati_Exam03UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alapati_Exam03UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FED8A3229FB00CB007A3979 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3FED8A3429FB010C007A3979 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3FED8A3629FB012F007A3979 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FED89FC29FAFE7B007A3979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED8A1229FAFE7D007A3979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED8A1C29FAFE7D007A3979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FED89F629FAFE7B007A3979 = {
+			isa = PBXGroup;
+			children = (
+				3FED8A0129FAFE7B007A3979 /* Alapati_Exam03 */,
+				3FED8A1829FAFE7D007A3979 /* Alapati_Exam03Tests */,
+				3FED8A2229FAFE7D007A3979 /* Alapati_Exam03UITests */,
+				3FED8A0029FAFE7B007A3979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FED8A0029FAFE7B007A3979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FED89FF29FAFE7B007A3979 /* Alapati_Exam03.app */,
+				3FED8A1529FAFE7D007A3979 /* Alapati_Exam03Tests.xctest */,
+				3FED8A1F29FAFE7D007A3979 /* Alapati_Exam03UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FED8A0129FAFE7B007A3979 /* Alapati_Exam03 */ = {
+			isa = PBXGroup;
+			children = (
+				3FED8A0229FAFE7B007A3979 /* AppDelegate.swift */,
+				3FED8A0429FAFE7B007A3979 /* SceneDelegate.swift */,
+				3FED8A0629FAFE7B007A3979 /* ViewController.swift */,
+				3FED8A0829FAFE7B007A3979 /* Main.storyboard */,
+				3FED8A0B29FAFE7D007A3979 /* Assets.xcassets */,
+				3FED8A0D29FAFE7D007A3979 /* LaunchScreen.storyboard */,
+				3FED8A1029FAFE7D007A3979 /* Info.plist */,
+				3FED8A3229FB00CB007A3979 /* Model.swift */,
+				3FED8A3429FB010C007A3979 /* RootViewController.swift */,
+				3FED8A3629FB012F007A3979 /* DestinationViewController.swift */,
+			);
+			path = Alapati_Exam03;
+			sourceTree = "<group>";
+		};
+		3FED8A1829FAFE7D007A3979 /* Alapati_Exam03Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FED8A1929FAFE7D007A3979 /* Alapati_Exam03Tests.swift */,
+			);
+			path = Alapati_Exam03Tests;
+			sourceTree = "<group>";
+		};
+		3FED8A2229FAFE7D007A3979 /* Alapati_Exam03UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FED8A2329FAFE7D007A3979 /* Alapati_Exam03UITests.swift */,
+				3FED8A2529FAFE7D007A3979 /* Alapati_Exam03UITestsLaunchTests.swift */,
+			);
+			path = Alapati_Exam03UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FED89FE29FAFE7B007A3979 /* Alapati_Exam03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED8A2929FAFE7D007A3979 /* Build configuration list for PBXNativeTarget "Alapati_Exam03" */;
+			buildPhases = (
+				3FED89FB29FAFE7B007A3979 /* Sources */,
+				3FED89FC29FAFE7B007A3979 /* Frameworks */,
+				3FED89FD29FAFE7B007A3979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alapati_Exam03;
+			productName = Alapati_Exam03;
+			productReference = 3FED89FF29FAFE7B007A3979 /* Alapati_Exam03.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FED8A1429FAFE7D007A3979 /* Alapati_Exam03Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED8A2C29FAFE7D007A3979 /* Build configuration list for PBXNativeTarget "Alapati_Exam03Tests" */;
+			buildPhases = (
+				3FED8A1129FAFE7D007A3979 /* Sources */,
+				3FED8A1229FAFE7D007A3979 /* Frameworks */,
+				3FED8A1329FAFE7D007A3979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FED8A1729FAFE7D007A3979 /* PBXTargetDependency */,
+			);
+			name = Alapati_Exam03Tests;
+			productName = Alapati_Exam03Tests;
+			productReference = 3FED8A1529FAFE7D007A3979 /* Alapati_Exam03Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FED8A1E29FAFE7D007A3979 /* Alapati_Exam03UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED8A2F29FAFE7D007A3979 /* Build configuration list for PBXNativeTarget "Alapati_Exam03UITests" */;
+			buildPhases = (
+				3FED8A1B29FAFE7D007A3979 /* Sources */,
+				3FED8A1C29FAFE7D007A3979 /* Frameworks */,
+				3FED8A1D29FAFE7D007A3979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FED8A2129FAFE7D007A3979 /* PBXTargetDependency */,
+			);
+			name = Alapati_Exam03UITests;
+			productName = Alapati_Exam03UITests;
+			productReference = 3FED8A1F29FAFE7D007A3979 /* Alapati_Exam03UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FED89F729FAFE7B007A3979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3FED89FE29FAFE7B007A3979 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3FED8A1429FAFE7D007A3979 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3FED89FE29FAFE7B007A3979;
+					};
+					3FED8A1E29FAFE7D007A3979 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3FED89FE29FAFE7B007A3979;
+					};
+				};
+			};
+			buildConfigurationList = 3FED89FA29FAFE7B007A3979 /* Build configuration list for PBXProject "Alapati_Exam03" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FED89F629FAFE7B007A3979;
+			productRefGroup = 3FED8A0029FAFE7B007A3979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FED89FE29FAFE7B007A3979 /* Alapati_Exam03 */,
+				3FED8A1429FAFE7D007A3979 /* Alapati_Exam03Tests */,
+				3FED8A1E29FAFE7D007A3979 /* Alapati_Exam03UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FED89FD29FAFE7B007A3979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED8A0F29FAFE7D007A3979 /* LaunchScreen.storyboard in Resources */,
+				3FED8A0C29FAFE7D007A3979 /* Assets.xcassets in Resources */,
+				3FED8A0A29FAFE7B007A3979 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED8A1329FAFE7D007A3979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED8A1D29FAFE7D007A3979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FED89FB29FAFE7B007A3979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED8A3529FB010C007A3979 /* RootViewController.swift in Sources */,
+				3FED8A3729FB012F007A3979 /* DestinationViewController.swift in Sources */,
+				3FED8A0729FAFE7B007A3979 /* ViewController.swift in Sources */,
+				3FED8A0329FAFE7B007A3979 /* AppDelegate.swift in Sources */,
+				3FED8A0529FAFE7B007A3979 /* SceneDelegate.swift in Sources */,
+				3FED8A3329FB00CB007A3979 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED8A1129FAFE7D007A3979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED8A1A29FAFE7D007A3979 /* Alapati_Exam03Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED8A1B29FAFE7D007A3979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED8A2429FAFE7D007A3979 /* Alapati_Exam03UITests.swift in Sources */,
+				3FED8A2629FAFE7D007A3979 /* Alapati_Exam03UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FED8A1729FAFE7D007A3979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FED89FE29FAFE7B007A3979 /* Alapati_Exam03 */;
+			targetProxy = 3FED8A1629FAFE7D007A3979 /* PBXContainerItemProxy */;
+		};
+		3FED8A2129FAFE7D007A3979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FED89FE29FAFE7B007A3979 /* Alapati_Exam03 */;
+			targetProxy = 3FED8A2029FAFE7D007A3979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FED8A0829FAFE7B007A3979 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED8A0929FAFE7B007A3979 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FED8A0D29FAFE7D007A3979 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED8A0E29FAFE7D007A3979 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FED8A2729FAFE7D007A3979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FED8A2829FAFE7D007A3979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FED8A2A29FAFE7D007A3979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Alapati_Exam03/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Alapati_Exam03;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-Exam03";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FED8A2B29FAFE7D007A3979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Alapati_Exam03/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Alapati_Exam03;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-Exam03";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FED8A2D29FAFE7D007A3979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-Exam03Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alapati_Exam03.app/Alapati_Exam03";
+			};
+			name = Debug;
+		};
+		3FED8A2E29FAFE7D007A3979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-Exam03Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alapati_Exam03.app/Alapati_Exam03";
+			};
+			name = Release;
+		};
+		3FED8A3029FAFE7D007A3979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-Exam03UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alapati_Exam03;
+			};
+			name = Debug;
+		};
+		3FED8A3129FAFE7D007A3979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-Exam03UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alapati_Exam03;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FED89FA29FAFE7B007A3979 /* Build configuration list for PBXProject "Alapati_Exam03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED8A2729FAFE7D007A3979 /* Debug */,
+				3FED8A2829FAFE7D007A3979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED8A2929FAFE7D007A3979 /* Build configuration list for PBXNativeTarget "Alapati_Exam03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED8A2A29FAFE7D007A3979 /* Debug */,
+				3FED8A2B29FAFE7D007A3979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED8A2C29FAFE7D007A3979 /* Build configuration list for PBXNativeTarget "Alapati_Exam03Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED8A2D29FAFE7D007A3979 /* Debug */,
+				3FED8A2E29FAFE7D007A3979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED8A2F29FAFE7D007A3979 /* Build configuration list for PBXNativeTarget "Alapati_Exam03UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED8A3029FAFE7D007A3979 /* Debug */,
+				3FED8A3129FAFE7D007A3979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FED89F729FAFE7B007A3979 /* Project object */;
+}
